@@ -7,16 +7,16 @@ const incrementBtn = document.querySelector('button[data-action="increment"]')
 decrementBtn.addEventListener(`click`, handlerDec);
 incrementBtn.addEventListener(`click`, handlerInc);
 
-function handlerInc(evt) {
+function handlerInc() {
     counterValue += 1;
     value.textContent = counterValue;
-    console.log(counterValue);
+    // console.log(counterValue);
 }
 
 function handlerDec(evt) {
     counterValue -= 1;
     value.textContent = counterValue;
-    console.log(counterValue);
+    // console.log(counterValue);
 }
 
 
