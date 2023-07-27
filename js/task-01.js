@@ -12,14 +12,12 @@ console.log(`Number of categories: ${numbCateg.length}`);
 // console.dir(namestItem[2].textContent);
 // console.log(`Elements: ${nbrElem[2].children.length}`);
 
-
-
 // const categories = document.querySelectorAll("li.item")
 // console.log("Number of categories:", categories.length)
 
 numbCateg.forEach(function (el) {
-const list = el.querySelector("h2")
-const listEl = el.querySelectorAll("li")
-console.log(`Category:`,  list.textContent),
-console.log(`Elements:`, listEl.length);
+    const list = el.querySelector("h2");
+    const listEl = el.querySelectorAll("li");
+    console.log(`Category:`, list.textContent);
+    console.log(`Elements:`, listEl.length);
 })
