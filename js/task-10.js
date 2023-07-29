@@ -30,7 +30,7 @@ function createBoxes(amount) {
 elements.destroyBox.addEventListener(`click`, destroyBoxes);
 
 function destroyBoxes() {
-  elements.divsBox.innerHTML = ``;
+  elements.divsBox.innerHTML = ``;  
 }
 
 function getRandomHexColor() {
