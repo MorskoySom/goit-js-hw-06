@@ -9,14 +9,12 @@ incrementBtn.addEventListener(`click`, handlerInc);
 
 function handlerInc() {
     counterValue += 1;
-    value.textContent = counterValue;
-    // console.log(counterValue);
+    value.textContent = counterValue;   
 }
 
 function handlerDec(evt) {
     counterValue -= 1;
-    value.textContent = counterValue;
-    // console.log(counterValue);
+    value.textContent = counterValue;   
 }
 
 

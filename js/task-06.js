@@ -9,7 +9,5 @@ function handlerCheck(evt) {
         valInput.classList.add("valid");
     } else {
         valInput.classList.add("invalid");
-    }
-    // console.log(evt.currentTarget.value.trim());
-
+    }  
 }
