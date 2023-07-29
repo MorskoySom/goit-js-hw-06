@@ -31,6 +31,7 @@ elements.destroyBox.addEventListener(`click`, destroyBoxes);
 
 function destroyBoxes() {
   elements.divsBox.innerHTML = ``;  
+  elements.nmbr.valueAsNumber = ``;  
 }
 
 function getRandomHexColor() {
